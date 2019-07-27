@@ -1,0 +1,32 @@
+header {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2rem;
+  color: #c1eeff;
+}
+body {
+  font-family:'Assistant', sans-serif;
+  font-size: 14px;
+  background-color: #28231c;
+}
+.maincontent{
+  display: flex;
+  justify-content: center;
+}
+.welcome {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2rem;
+  color: #c1eeff;
+  text-align: center;
+}
+.welcomecontent {
+  font-size: 1.2rem;
+  color: #070707;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.welcomebox {
+  width: 700px;
+  background-color: #655356;
+  border-radius: 10px;
+
+}
