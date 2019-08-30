@@ -70,6 +70,16 @@ body {
   color: #c1eeff;
   text-align: center;
 }
+.homepics{
+  display: flex;
+  justify-content: center;
+}
+.squarepic{
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 8px 3px 3px black;
+}
 .welcomecontent {
   font-size: 1.2rem;
   color: #070707;
@@ -80,9 +90,29 @@ body {
   width: 700px;
   background-color: #655356;
   border-radius: 10px;
-
+  box-shadow: 8px 3px 3px black;
+}
+.socials{
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 30px;
 }
 h1{
   transition: 1s;
   font-weight: normal;
+}
+h2{
+text-align: center;
+}
+Footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 30px;
+}
+.footertext{
+  width: 900px;
+  color: gray;
+  opacity: 0.4;
 }
