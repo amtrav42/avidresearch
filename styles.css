@@ -80,6 +80,10 @@ body {
   border-radius: 5px;
   box-shadow: 8px 3px 3px black;
 }
+.galleryboxes{
+  display: flex;
+  justify-content: center;
+}
 .welcomecontent {
   font-size: 1.2rem;
   color: #070707;
@@ -96,6 +100,23 @@ body {
   font-size: 3em;
   text-align: center;
   padding-bottom: 30px;
+}
+.blogbox{
+  width: 700px;
+  background-color: #655356;
+  border-radius: 10px;
+  box-shadow: 8px 3px 3px black;
+  padding: 10px 30px 30px;
+  margin: 30px;
+}
+#blogheader{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.8rem;
+  color: #c1eeff;
+  text-align: center;
+}
+.blogcontent{
+  font-size: 1.1rem;
 }
 h1{
   transition: 1s;
