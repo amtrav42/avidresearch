@@ -76,6 +76,7 @@ body {
 }
 .squarepic{
   width: 300px;
+  height: 300px;
   margin: 20px;
   border-radius: 5px;
   box-shadow: 8px 3px 3px black;
@@ -85,10 +86,11 @@ body {
   justify-content: center;
 }
 .welcomecontent {
-  font-size: 1.2rem;
-  color: #070707;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
+  background-color: #655356;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px;
 }
 .welcomebox {
   width: 700px;
@@ -124,6 +126,13 @@ h1{
 }
 h2{
 text-align: center;
+}
+h3{
+  margin: 0;
+  font-weight: normal;
+}
+p{
+  font-size: 1.2rem;
 }
 Footer{
   display: flex;
