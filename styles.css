@@ -15,20 +15,20 @@
 a {
   text-decoration: none;
   transition: 0.3s;
-  color: #c1eeff
+  color: #6CBFF5;
 }
 a:hover{
   font-style: italic;
-  color: #513B3C;
+  color: #86EE57;
 }
 header {
   font-family: 'Abril Fatface', cursive;
-  color: #c1eeff;
+  color: #6CBFF5;
 }
 body {
   font-family:'Assistant', sans-serif;
   font-size: 14px;
-  background-color: #28231c;
+  background-color: #FCF7F1;
   }
 .headerimg{
   width: 100%;
@@ -64,22 +64,27 @@ body {
   display: flex;
   justify-content: center;
 }
+.maxcontent{
+  width: 1100px;
+  display: flex;
+}
 .welcome {
   font-family: 'Abril Fatface', cursive;
   font-size: 2rem;
-  color: #c1eeff;
+  color: #217EA6;
   text-align: center;
 }
 .homepics{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  margin: 20px;
 }
 .squarepic{
-  width: 300px;
-  height: 300px;
-  margin: 20px;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
   border-radius: 5px;
-  box-shadow: 8px 3px 3px black;
+  box-shadow: 8px 3px 3px grey;
 }
 .galleryboxes{
   display: flex;
@@ -87,16 +92,13 @@ body {
 }
 .welcomecontent {
   padding: 10px;
-  background-color: #655356;
-  border-radius: 10px;
   display: inline-block;
   margin: 20px;
 }
 .welcomebox {
   width: 700px;
-  background-color: #655356;
-  border-radius: 10px;
-  box-shadow: 8px 3px 3px black;
+  justify-content: center;
+  text-align: center;
 }
 .socials{
   font-size: 3em;
@@ -104,21 +106,25 @@ body {
   padding-bottom: 30px;
 }
 .blogbox{
-  width: 700px;
-  background-color: #655356;
-  border-radius: 10px;
-  box-shadow: 8px 3px 3px black;
+  width: 900px;
   padding: 10px 30px 30px;
   margin: 30px;
 }
 #blogheader{
   font-family: 'Abril Fatface', cursive;
   font-size: 2.8rem;
-  color: #c1eeff;
+  color: #217EA6;
   text-align: center;
 }
 .blogcontent{
   font-size: 1.1rem;
+}
+.bigSquarePic{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 8px 3px 3px grey;
 }
 h1{
   transition: 1s;
@@ -143,6 +149,5 @@ Footer{
 }
 .footertext{
   width: 900px;
-  color: gray;
-  opacity: 0.4;
+  color: darkgray;
 }
