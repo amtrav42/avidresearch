@@ -1,7 +1,6 @@
-* {
+*{
   box-sizing: border-box;
 }
-
 @keyframes headerrotate {
   0% {
     background: url("images/header.jpeg");
@@ -18,24 +17,20 @@ a {
   transition: 0.3s;
   color: #6CBFF5;
 }
-
-a:hover {
+a:hover{
   font-style: italic;
   color: #86EE57;
 }
-
 header {
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   color: #6CBFF5;
 }
-
 body {
-  font-family: "Assistant", sans-serif;
+  font-family:'Assistant', sans-serif;
   font-size: 14px;
   background-color: #FCF7F1;
-}
-
-.headerimg {
+  }
+.headerimg{
   width: 100%;
   background: url("images/header.jpeg");
   background-size: cover;
@@ -44,8 +39,7 @@ body {
   animation: headerrotate 20s infinite;
   display: flex;
 }
-
-.navlink {
+.navlink{
   font-size: 1.3rem;
   background-color: #28231c;
   height: 45px;
@@ -53,138 +47,113 @@ body {
   margin-left: 7px;
   border-radius: 4px;
 }
-
-.headertitle {
+.headertitle{
   font-size: 2rem;
 }
-
-.headertagline {
+.headertagline{
   font-size: 1.3rem;
 }
-
-.headertext {
+.headertext{
   background-color: #28231c;
   width: 250px;
   height: 95px;
   padding: 12px;
   border-radius: 4px;
 }
-
-.maincontent {
+.maincontent{
   display: flex;
   justify-content: center;
 }
-
-.maxcontent {
+.maxcontent{
   width: 1100px;
   display: flex;
   justify-content: center;
 }
-
 .welcome {
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   font-size: 2rem;
   color: #217EA6;
   text-align: center;
 }
-
-.homepics {
+.homepics{
   display: flex;
   justify-content: flex-end;
   margin: 20px;
 }
-
-.squarepic {
+.squarepic{
   width: 200px;
   height: 200px;
   margin: 10px;
   border-radius: 5px;
   box-shadow: 8px 3px 3px grey;
 }
-
-.galleryboxes {
+.galleryboxes{
   display: flex;
   justify-content: center;
 }
-
 .welcomecontent {
   padding: 10px;
   display: inline-block;
   margin: 20px;
 }
-
 .welcomebox {
   width: 700px;
   justify-content: center;
   text-align: center;
 }
-
 p::first-letter {
   font-size: 2.8rem;
   color: #217EA6;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
 }
-
-.socials {
+.socials{
   font-size: 4em;
   text-align: center;
   padding-bottom: 30px;
 }
-
-.blogbox {
+.blogbox{
   width: 900px;
   padding: 10px 30px 30px;
   margin: 30px;
 }
-
-#blogheader {
-  font-family: "Abril Fatface", cursive;
+#blogheader{
+  font-family: 'Abril Fatface', cursive;
   font-size: 2.8rem;
   color: #217EA6;
   text-align: center;
 }
-
-.blogcontent {
+.blogcontent{
   font-size: 1.1rem;
 }
-
-.bigSquarePic {
+.bigSquarePic{
   width: 300px;
   height: 300px;
   margin: 10px;
   border-radius: 5px;
   box-shadow: 8px 3px 3px grey;
 }
-
-h1 {
+h1{
   transition: 1s;
   font-weight: normal;
 }
-
-h2 {
-  text-align: center;
+h2{
+text-align: center;
 }
-
-h3 {
+h3{
   margin: 0;
   font-weight: normal;
 }
-
-p {
+p{
   font-size: 1.2rem;
 }
-
-Footer {
+Footer{
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   margin: 30px;
 }
-
-.footertext {
+.footertext{
   width: 900px;
   color: darkgray;
 }
-
-/*# sourceMappingURL=styles.css.map */
