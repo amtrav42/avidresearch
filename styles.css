@@ -34,7 +34,10 @@ body {
   font-size: 14px;
   background-color: #FCF7F1;
 }
-
+li {
+  font-family: "Assistant", sans-serif;
+  font-size: 1.2rem;
+}
 .headerimg {
   width: 100%;
   background: url("images/header.jpeg");
