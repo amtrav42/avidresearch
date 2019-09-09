@@ -34,10 +34,7 @@ body {
   font-size: 14px;
   background-color: #FCF7F1;
 }
-li {
-  font-family: "Assistant", sans-serif;
-  font-size: 1.2rem;
-}
+
 .headerimg {
   width: 100%;
   background: url("images/header.jpeg");
@@ -126,6 +123,12 @@ p::first-letter {
   font-size: 2.8rem;
   color: #217EA6;
   font-family: "Abril Fatface", cursive;
+}
+
+p.noBigFirstLetter::first-letter {
+  font-size: 1.2rem;
+  color: #000;
+  font-family: "Assistant", sans-serif;
 }
 
 .socials {
