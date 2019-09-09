@@ -162,3 +162,36 @@ Footer{
   width: 900px;
   color: darkgray;
 }
+.clickable{
+  cursor: pointer;
+}
+#popUpWrapper{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+#imagePopUp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 550px;
+  background-color: white;
+  position: relative;
+}
+#popUpImage{
+  height: 500px;
+}
+#popUpClose{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
