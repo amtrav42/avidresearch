@@ -1,7 +1,9 @@
+//function closes the popup image when x in top right is clicked//
 function closeImagePopUp() {
   var popUpWrapper = document.getElementById("popUpWrapper");
   popUpWrapper.style.display = "none";
 }
+//function creates a popup//
 function openImagePopUp(imageURL) {
   var popUpWrapper = document.getElementById("popUpWrapper");
   popUpWrapper.style.display = "flex";
