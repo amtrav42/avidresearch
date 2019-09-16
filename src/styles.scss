@@ -1,3 +1,11 @@
+$font-headings: 'Abril Fatface', cursive;
+$font-body: 'Assistant', sans-serif;
+$colour-highlight: #86EE57;
+$colour-main: #6CBFF5;
+$colour-background: #FCF7F1;
+$colour-headings: #217EA6;
+$colour-dark-background: #28231c;
+
 *{
   box-sizing: border-box;
 }
@@ -15,20 +23,20 @@
 a {
   text-decoration: none;
   transition: 0.3s;
-  color: #6CBFF5;
+  color: $colour-main;
 }
 a:hover{
   font-style: italic;
-  color: #86EE57;
+  color: $colour-highlight;
 }
 header {
-  font-family: 'Abril Fatface', cursive;
-  color: #6CBFF5;
+  font-family: $font-headings;
+  color: $colour-main;
 }
 body {
-  font-family:'Assistant', sans-serif;
+  font-family: $font-body;
   font-size: 14px;
-  background-color: #FCF7F1;
+  background-color: $colour-background;
   }
 .headerimg{
   width: 100%;
@@ -41,7 +49,7 @@ body {
 }
 .navlink{
   font-size: 1.3rem;
-  background-color: #28231c;
+  background-color: $colour-dark-background;
   height: 45px;
   padding: 10px;
   margin-left: 7px;
@@ -54,7 +62,7 @@ body {
   font-size: 1.3rem;
 }
 .headertext{
-  background-color: #28231c;
+  background-color: $colour-dark-background;
   width: 250px;
   height: 95px;
   padding: 12px;
@@ -70,9 +78,9 @@ body {
   justify-content: center;
 }
 .welcome {
-  font-family: 'Abril Fatface', cursive;
+  font-family: $font-headings;
   font-size: 2rem;
-  color: #217EA6;
+  color: $colour-headings;
   text-align: center;
 }
 .homepics{
@@ -103,13 +111,13 @@ body {
 }
 p::first-letter {
   font-size: 2.8rem;
-  color: #217EA6;
-  font-family: 'Abril Fatface', cursive;
+  color: $colour-headings;
+  font-family: $font-headings;
 }
 p.noBigFirstLetter::first-letter {
   font-size: 1.2rem;
   color: #000;
-  font-family:'Assistant', sans-serif;
+  font-family: $font-body;
 }
 .socials{
   font-size: 4em;
@@ -122,9 +130,9 @@ p.noBigFirstLetter::first-letter {
   margin: 30px;
 }
 #blogheader{
-  font-family: 'Abril Fatface', cursive;
+  font-family: $font-headings;
   font-size: 2.8rem;
-  color: #217EA6;
+  color: $colour-headings;
   text-align: center;
 }
 .blogcontent{
@@ -182,7 +190,7 @@ Footer{
   justify-content: center;
   width: 550px;
   height: 550px;
-  background-color: white;
+  background-color: $colour-background;
   position: relative;
 }
 #popUpImage{
