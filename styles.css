@@ -102,6 +102,10 @@ body {
   box-shadow: 8px 3px 3px grey;
 }
 
+.codeBlogImage {
+  width: 500px;
+}
+
 .galleryboxes {
   display: flex;
   justify-content: center;
