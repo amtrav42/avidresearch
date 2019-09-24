@@ -26,10 +26,14 @@
         <h1>This is a random Abstract Map Generator</h1>
     </div>
     <h2>How many cells would you like in your map?</h2>
-    <input type="text" id="gridInput" name="Grid Size" placeholder="how big is your grid?">
-    <button type="button" id="calculateButton" name="button">Calculate</button>
+    <div class="mapInput">
+      <input type="text" id="gridInput" name="Grid Size" placeholder="how big is your grid?">
+      <button type="button" id="calculateButton" name="button">Create</button>
+    </div>
     <div id="result"></div>
-    <div class="gridOutput" id="mapGrid"></div>
+    <div class="gridWrapper">
+      <div class="gridOutput" id="mapGrid"></div>
+    </div>
     <footer>
       <div class="footertext">
       Thank you for visiting Avid Research where we like to ask all the questions and occasionally even answer them.

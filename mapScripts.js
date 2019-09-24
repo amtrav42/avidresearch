@@ -57,7 +57,7 @@ function setMaxTilesFromInput(){
 
 function updateResult(result){
   //insert the result, map height, back into the DOM to be visible to user//
-  const output = "<h2>" + result + "</h2>";
+  const output = "<h2>Your grid has a length and width of..." + result + "</h2>";
   document.getElementById("result").innerHTML = output;
 }
 

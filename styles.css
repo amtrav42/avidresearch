@@ -249,6 +249,20 @@ Footer {
   animation: fadeIn 1s linear;
 }
 
+.mapInput {
+  display: flex;
+  justify-content: center;
+}
+
+#gridInput {
+  padding: 0.5em;
+}
+
+.gridWrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .row {
   display: flex;
 }
