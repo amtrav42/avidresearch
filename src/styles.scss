@@ -5,6 +5,7 @@ $colour-main: #6CBFF5;
 $colour-background: #FCF7F1;
 $colour-headings: #217EA6;
 $colour-dark-background: #28231c;
+$block-size: 80px 80px;
 
 *{
   box-sizing: border-box;
@@ -239,15 +240,15 @@ Footer{
 }
 .tile_type_Ab {
   background-image: url(images/Ab.jpg);
-  background-size: 80px 80px;
+  background-size: $block-size;
 }
 .tile_type_Ac {
   background-image: url(images/Ac.jpg);
-  background-size: 80px 80px;
+  background-size: $block-size;
 }
 .tile_type_Ba {
   background-image: url(images/Ba.jpg);
-  background-size: 80px 80px;
+  background-size: $block-size;
 }
 .tile_type_Bb {
   background-image: url(images/Bb.jpg);
