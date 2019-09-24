@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AR Map Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Assistant&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.png" type="icon">
+  </head>
+  <body>
+    <header>
+      <div class="headerimg">
+        <a href="index.html">
+          <div class="headertext navlink">
+            <div class="headertitle">Avid Research</div>
+            <div class="headertagline">Ask all the questions</div>
+          </div>
+        </a>
+        <a href="index.html"><div class="gallerylink navlink">Home</div></a>
+        <a href="contact.html"><div class="contactlink navlink">Contact</div></a>
+        <a href="about.html"><div class="gallerylink navlink">About</div></a>
+        <a href="https://www.redbubble.com/people/amaltr42?asc=u" target="_blank"><div class="shoplink navlink">Shop</div></a>
+      </div>
+    </header>
+    <div class="welcome">
+        <h1>This is a random Abstract Map Generator</h1>
+    </div>
+    <h2>How many cells would you like in your map?</h2>
+    <input type="text" id="gridInput" name="Grid Size" placeholder="how big is your grid?">
+    <button type="button" id="calculateButton" name="button">Calculate</button>
+    <div id="result"></div>
+    <div class="gridOutput" id="mapGrid"></div>
+    <footer>
+      <div class="footertext">
+      Thank you for visiting Avid Research where we like to ask all the questions and occasionally even answer them.
+      Feel free to reference any of the images here (please link people back to this site!) and contact us if you would like your very own commission.
+      </div>
+    </footer>
+    <script type="text/javascript" src="mapScripts.js"></script>
+  </body>
+</html>
