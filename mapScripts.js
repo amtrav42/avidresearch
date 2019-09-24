@@ -29,6 +29,7 @@ const tileTypes = [
 
 //create the grid based on map width and height//
 function initialiseGrid(size) {
+  grid = [];
   for (var i=0; i < size; i++){
     //initialising the row//
     grid[i] = [];
