@@ -60,6 +60,9 @@ body {
   display: flex;
   font-weight: bolder;
 }
+.blogButtons{
+  justify-content: flex-end;
+}
 .headertitle{
   font-size: 2rem;
 }
