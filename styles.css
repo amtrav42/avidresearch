@@ -54,6 +54,11 @@ body {
   border-radius: 4px;
 }
 
+.linkButtons {
+  display: flex;
+  font-weight: bolder;
+}
+
 .headertitle {
   font-size: 2rem;
 }
@@ -121,18 +126,6 @@ body {
   width: 700px;
   justify-content: center;
   text-align: center;
-}
-
-p::first-letter {
-  font-size: 2.8rem;
-  color: #217EA6;
-  font-family: "Abril Fatface", cursive;
-}
-
-p.noBigFirstLetter::first-letter {
-  font-size: 1.2rem;
-  color: #000;
-  font-family: "Assistant", sans-serif;
 }
 
 .socials {

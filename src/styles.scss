@@ -56,6 +56,10 @@ body {
   margin-left: 7px;
   border-radius: 4px;
 }
+.linkButtons{
+  display: flex;
+  font-weight: bolder;
+}
 .headertitle{
   font-size: 2rem;
 }
@@ -112,16 +116,6 @@ body {
   width: 700px;
   justify-content: center;
   text-align: center;
-}
-p::first-letter {
-  font-size: 2.8rem;
-  color: $colour-headings;
-  font-family: $font-headings;
-}
-p.noBigFirstLetter::first-letter {
-  font-size: 1.2rem;
-  color: #000;
-  font-family: $font-body;
 }
 .socials{
   font-size: 4em;

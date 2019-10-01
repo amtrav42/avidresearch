@@ -11,5 +11,5 @@ function openImagePopUp(imageURL) {
   popUpImage.src = imageURL;
 }
 document.getElementById("newCityThumbnail").onclick = function() { openImagePopUp("images/squares/NewCity.jpg"); };
-document.getElementById("morningtonThumbnail").onclick = function() { openImagePopUp("images/squares/mornington.jpg"); };
+document.getElementById("morningtonThumbnail").onclick = function() { openImagePopUp("images/squares/Mornington.jpg"); };
 document.getElementById("popUpClose").onclick = closeImagePopUp;
