@@ -164,6 +164,50 @@ body {
   box-shadow: 8px 3px 3px grey;
 }
 
+.instaBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#instaWelcome {
+  font-weight: bold;
+}
+
+.instaButton {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  height: 45px;
+  padding: 10px;
+  margin-top: 7px;
+  border-radius: 4px;
+}
+
+.instaRedBubble {
+  background-color: #28231c;
+}
+
+.instaGenrator {
+  background-color: #217EA6;
+}
+
+.instaGallery {
+  background-color: #86EE57;
+}
+
+.instaGallery a {
+  color: #28231c;
+}
+
+.instaContact {
+  background-color: #F98E4A;
+}
+
+.instaContact a {
+  color: #28231c;
+}
+
 h1 {
   transition: 1s;
   font-weight: normal;
